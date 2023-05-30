@@ -1,4 +1,5 @@
 //! Crate for describing ROS messages, and handling MSG and SRV files.
+#![allow(warnings)]
 #![warn(missing_docs)]
 
 mod data_type;

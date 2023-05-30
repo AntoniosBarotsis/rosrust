@@ -1,4 +1,5 @@
 #![recursion_limit = "1024"]
+#![allow(warnings)]
 
 pub use crate::api::raii::{Publisher, Service, Subscriber};
 pub use crate::api::handlers::{SubscriptionHandler};
